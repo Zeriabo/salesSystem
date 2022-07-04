@@ -30,3 +30,10 @@
 2022-07-04T23:36:58.328+0300 DEBUG Updating price
 2022-07-04T23:37:04.558+0300 DEBUG Creating sale
 2022-07-04T23:37:31.243+0300 DEBUG Creating sale
+2022-07-04T23:47:51.556+0300 INFO Starting SalesSystemApplication using Java 1.8.0_321 on Zeriabs-MBP.lan with PID 11709 (/Users/zeriab/Documents/workspace-spring-tool-suite-4-4.12.1.RELEASE/sales_system/target/classes started by zeriab in /Users/zeriab/Documents/workspace-spring-tool-suite-4-4.12.1.RELEASE/sales_system)
+2022-07-04T23:47:51.561+0300 DEBUG Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-04T23:47:51.563+0300 INFO No active profile set, falling back to 1 default profile: "default"
+2022-07-04T23:47:57.480+0300 INFO Started SalesSystemApplication in 6.409 seconds (JVM running for 7.578)
+2022-07-04T23:47:57.487+0300 INFO Info level log message
+2022-07-04T23:47:57.487+0300 DEBUG Debug level log message
+2022-07-04T23:47:57.487+0300 ERROR Error level log message
