@@ -29,7 +29,6 @@ import com.sys.sales.repository.ClientRepository;
 import com.sys.sales.repository.SalesRepository;
 import com.sys.sales.repository.SellerRepository;
 import com.sys.sales.service.ClientService;
-import com.sys.sales.service.ProductService;
 import com.sys.sales.service.SellerService;
 
 @CrossOrigin("*")

@@ -20,10 +20,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.sys.sales.model.Client;
-import com.sys.sales.model.Product;
 import com.sys.sales.repository.ClientRepository;
-import com.sys.sales.repository.ProductRepository;
-import com.sys.sales.service.ProductService;
+
 
 @CrossOrigin("*")
 @RestController

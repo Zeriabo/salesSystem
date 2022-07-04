@@ -4,20 +4,17 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Service;
-import org.springframework.ui.Model;
-
 import com.sys.sales.model.Product;
 import com.sys.sales.repository.ProductRepository;
-
 import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.util.Optional;
+
 @Service
 public class ProductService implements IProductService {
 
 	@Autowired
 	public JdbcTemplate jdbcTemplate;
 	
+	@SuppressWarnings("unused")
 	private final ProductRepository productRepository;
 	
 	public ProductService(ProductRepository productRepository)

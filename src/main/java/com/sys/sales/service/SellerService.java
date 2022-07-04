@@ -4,16 +4,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Service;
-
-
-import com.sys.sales.model.Client;
 import com.sys.sales.model.Seller;
-import com.sys.sales.repository.ClientRepository;
 import com.sys.sales.repository.SellerRepository;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.Optional;
 @Service
 public class SellerService implements ISellerService {
 

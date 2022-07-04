@@ -1,6 +1,5 @@
 package com.sys.sales.repository;
 
-import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

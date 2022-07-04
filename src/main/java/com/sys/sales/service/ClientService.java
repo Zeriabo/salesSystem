@@ -11,7 +11,6 @@ import com.sys.sales.repository.ClientRepository;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.Optional;
 @Service
 public class ClientService implements IClientService {
 
