@@ -1,5 +1,6 @@
 package com.sys.controller;
 
+import java.time.LocalDateTime;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -69,6 +70,7 @@ public class SalesController {
 	       
 		ModelAndView mv = new ModelAndView("sales");
 		sale.calculateTotalPrice();
+		sale.setCreationDate(LocalDateTime.now().toString());
 		try {
 			salesRepository.save(sale);
 		}catch(Exception e)
