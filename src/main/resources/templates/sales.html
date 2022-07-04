@@ -1,0 +1,24 @@
+<html xmlns:th="https://thymeleaf.org">    
+<table>    
+<tr>    
+<td><h4>Client Name: </h4></td>    
+<td><h4 th:text="${sale.getClient().getName()}"></h4></td>    
+</tr>  
+<tr>    
+<td><h4>Seller Name: </h4></td>    
+<td><h4 th:text="${sale.getSeller().getName()}"></h4></td>    
+</tr> 
+<tr>
+    
+
+
+ <tr> 
+<tr>    
+<td><h4>Creation DAte: </h4></td>    
+<td><h4 th:text="${sale.getCreationDate()}"></h4></td>    
+</tr>     
+<td><h4>Total: </h4></td>    
+<td><h4 th:text="${sale.getTotalPrice()}"></h4></td>    
+</tr>  
+</table>    
+</html>  
