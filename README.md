@@ -1,0 +1,2 @@
+# salesSystem
+Spring boot application
